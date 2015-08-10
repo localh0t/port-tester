@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-# Port Tester v0.1
+# Port-Tester v0.1
 # Test which remote ports the server running this script can access to.
 # written by localh0t
 # Date: 03/02/12
