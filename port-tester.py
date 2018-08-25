@@ -84,7 +84,7 @@ print "\n[!] Port-test started..."
 print "[!] Timeout: " + str(timeout) + " seconds\n"
 
 # In case we had DNS problems on the server, we use the IP instead the domain, if you wanna use the domain : hostname = socket.gethostbyname("open.zorinaq.com")
-hostname = '67.215.250.139' # open.zorinaq.com , 65k ports open
+hostname = '163.172.166.150' # open.zorinaq.com , 65k ports open
 
 for port in range(start_port , end_port+1):
 	print connectHost(hostname, port, timeout)
